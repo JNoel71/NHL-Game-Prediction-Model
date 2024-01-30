@@ -50,7 +50,7 @@ Due to the large number of features available feature selection was performed us
 An extremely randomized trees model was imported from sklearn and was selected due to the large number of features in the dataset and the power of the model compared to more traditional approaches such as logistic regression. While random forest would have also been a suitable choice extremely randomized trees were chosen due to the computational speed advantage over random forest.
 
 ### Hyperparameter Tuning
-Hyperparameters were chosen using 250 iterations of a randomized search with cross-validation (RandomizedSearchCV). The parameter grid used can be seen in the ModelCreation.py file.
+Hyperparameters were chosen using 250 iterations of a randomized search with cross-validation (RandomizedSearchCV). The parameter grid used can be seen in the ModelCreation.py file. The objective of the search was to minimize the log loss of the model.
 
 ## Performance
 ### Overall Performance
